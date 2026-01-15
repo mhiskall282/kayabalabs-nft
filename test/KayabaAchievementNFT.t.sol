@@ -23,3 +23,9 @@ contract KayabaAchievementNFTTest is Test {
             "KAYABA",
             "https://metadata.kayabalabs.com/achievements"
         );
+
+         
+        // Fund test addresses
+        vm.deal(student1, 10 ether);
+        vm.deal(student2, 10 ether);
+    }
