@@ -21,3 +21,20 @@ contract KayabaAchievementNFT is ERC721, ERC721URIStorage, Ownable {
         HACKATHON_WINNER,
         HACKATHON_PARTICIPANT
     }
+
+    // Mapping from token ID to achievement type
+    mapping(uint256 => AchievementType) public tokenAchievements;
+    
+    // Mapping from token ID to achievement details
+    mapping(uint256 => string) public achievementDetails;
+    
+    // Base URI for metadata
+    string private _baseTokenURI;
+    
+    // Events
+    event AchievementMinted(
+        address indexed recipient,
+        uint256 indexed tokenId,
+        AchievementType achievementType,
+        string details
+    );
