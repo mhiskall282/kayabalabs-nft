@@ -16,10 +16,14 @@ contract KayabaAchievementNFT is ERC721, ERC721URIStorage, Ownable {
     
     // Achievement types
     enum AchievementType {
-        COURSE_COMPLETION,
-        HACKATHON_WINNER,
-        HACKATHON_PARTICIPANT
-    }
+    COURSE_COMPLETION,
+    HACKATHON_WINNER,
+    HACKATHON_PARTICIPANT,
+    PROJECT_COMPLETION,      // NEW
+    MENTORSHIP_ACHIEVEMENT,  // NEW
+    COMMUNITY_CONTRIBUTOR    // NEW
+    
+}
 
     // Mapping from token ID to achievement type
     mapping(uint256 => AchievementType) public tokenAchievements;
@@ -79,6 +83,21 @@ contract KayabaAchievementNFT is ERC721, ERC721URIStorage, Ownable {
         
         return tokenId;
     }
+
+    function _update(
+    address to,
+    uint256 tokenId,
+    address auth
+) internal virtual override returns (address) {
+    address from = _ownerOf(tokenId);
+    
+    // Allow minting (from address(0)) but block transfers
+    if (from != address(0) && to != address(0)) {
+        revert("Token is soulbound and cannot be transferred");
+    }
+    
+    return super._update(to, tokenId, auth);
+}
     
 
     /**
