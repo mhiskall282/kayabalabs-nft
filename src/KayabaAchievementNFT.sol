@@ -133,7 +133,7 @@ contract KayabaAchievementNFT is ERC721, ERC721URIStorage, Ownable {
     /**
      * @dev Get achievement info for a token
      */
-    
+
     function getAchievementInfo(uint256 tokenId) 
         public 
         view 
