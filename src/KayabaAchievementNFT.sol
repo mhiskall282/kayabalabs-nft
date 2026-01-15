@@ -81,3 +81,17 @@ contract KayabaAchievementNFT is ERC721, ERC721URIStorage, Ownable {
         return tokenId;
     }
     
+
+    **
+     * @dev Batch mint achievements (only owner)
+     * Useful for awarding multiple students at once
+     */
+    function batchMintAchievements(
+        address[] memory recipients,
+        AchievementType achievementType,
+        string memory details,
+        string memory baseMetadataURI
+    ) public onlyOwner {
+        for (uint256 i = 0; i < recipients.length; i++) {
+            uint256 tokenId = _nextTokenId++;
+            _safeMint(recipients[i], tokenId);
