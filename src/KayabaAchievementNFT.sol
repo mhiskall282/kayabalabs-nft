@@ -95,3 +95,17 @@ contract KayabaAchievementNFT is ERC721, ERC721URIStorage, Ownable {
         for (uint256 i = 0; i < recipients.length; i++) {
             uint256 tokenId = _nextTokenId++;
             _safeMint(recipients[i], tokenId);
+
+
+            / Create unique metadata URI for each token
+            string memory metadataURI = string(
+                abi.encodePacked(baseMetadataURI, "/", tokenId.toString(), ".json")
+            );
+            _setTokenURI(tokenId, metadataURI);
+            
+            tokenAchievements[tokenId] = achievementType;
+            achievementDetails[tokenId] = details;
+            
+            emit AchievementMinted(recipients[i], tokenId, achievementType, details);
+        }
+    }
