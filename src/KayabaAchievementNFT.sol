@@ -72,4 +72,12 @@ contract KayabaAchievementNFT is ERC721, ERC721URIStorage, Ownable {
         achievementDetails[tokenId] = details;
         
         emit AchievementMinted(to, tokenId, achievementType, details);
+         
+        // Refund excess payment
+        if (msg.value > MINT_FEE) {
+            payable(msg.sender).transfer(msg.value - MINT_FEE);
+        }
         
+        return tokenId;
+    }
+    
