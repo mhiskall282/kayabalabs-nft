@@ -71,3 +71,19 @@ contract KayabaAchievementNFTTest is Test {
         assertEq(nft.ownerOf(1), student2);
     }
     
+     function testWithdrawFees() public {
+        vm.prank(student1);
+        nft.mintAchievement{value: MINT_FEE}(
+            student1,
+            KayabaAchievementNFT.AchievementType.COURSE_COMPLETION,
+            "Test",
+            "1.json"
+        );
+        
+        uint256 balanceBefore = owner.balance;
+        nft.withdrawFees();
+        uint256 balanceAfter = owner.balance;
+        
+        assertEq(balanceAfter - balanceBefore, MINT_FEE);
+    }
+}
