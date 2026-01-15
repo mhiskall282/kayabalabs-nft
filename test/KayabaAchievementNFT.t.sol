@@ -29,3 +29,13 @@ contract KayabaAchievementNFTTest is Test {
         vm.deal(student1, 10 ether);
         vm.deal(student2, 10 ether);
     }
+
+    function testMintWithFee() public {
+        vm.prank(student1);
+        uint256 tokenId = nft.mintAchievement{value: MINT_FEE}(
+            student1,
+            KayabaAchievementNFT.AchievementType.COURSE_COMPLETION,
+            "Solidity Fundamentals",
+            "1.json"
+        );
+        
