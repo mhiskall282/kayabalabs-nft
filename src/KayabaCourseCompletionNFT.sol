@@ -219,3 +219,13 @@ contract KayabaCourseCompletionNFT is ERC721, ERC721URIStorage, Ownable {
                 count++;
             }
         }
+
+        // Second pass: collect token IDs
+        uint256[] memory certificates = new uint256[](count);
+        uint256 index = 0;
+        for (uint256 i = 0; i < total; i++) {
+            if (_ownerOf(i) == student) {
+                certificates[index] = i;
+                index++;
+            }
+        }
