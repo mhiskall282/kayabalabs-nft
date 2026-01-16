@@ -63,3 +63,26 @@ contract KayabaCourseCompletionNFT is ERC721, ERC721URIStorage, Ownable {
      * @param date Completion date (e.g., "January 15, 2024")
      * @param metadataURI Specific metadata URI (e.g., "0.json")
      */
+
+
+    function mintCertificate(
+        address to,
+        string memory studentId,
+        string memory course,
+        string memory date,
+        string memory metadataURI
+    ) public payable returns (uint256) {
+        require(msg.value >= MINT_FEE, "Insufficient minting fee");
+        require(bytes(course).length > 0, "Course name required");
+        require(bytes(studentId).length > 0, "Student ID required");
+
+        uint256 tokenId = _nextTokenId++;
+        _safeMint(to, tokenId);
+        _setTokenURI(tokenId, metadataURI);
+        
+        // Store student information
+        studentInfo[tokenId] = StudentInfo({
+            studentId: studentId,
+            courseName: course,
+            completionDate: date
+        });
