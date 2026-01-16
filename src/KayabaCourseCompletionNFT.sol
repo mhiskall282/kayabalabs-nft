@@ -158,3 +158,14 @@ contract KayabaCourseCompletionNFT is ERC721, ERC721URIStorage, Ownable {
             emit CertificateMinted(recipients[i], tokenId, studentIds[i], course, dates[i]);
         }
     }
+
+     /**
+     * @dev Withdraw collected fees (only owner)
+     */
+    function withdrawFees() public onlyOwner {
+        uint256 balance = address(this).balance;
+        require(balance > 0, "No funds to withdraw");
+        
+        payable(owner()).transfer(balance);
+        emit FundsWithdrawn(owner(), balance);
+    }
