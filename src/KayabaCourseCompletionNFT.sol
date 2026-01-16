@@ -127,3 +127,34 @@ contract KayabaCourseCompletionNFT is ERC721, ERC721URIStorage, Ownable {
      * @param dates Array of completion dates
      * @param baseMetadataURI Base URI for metadata (e.g., "ipfs://QmHash")
      */
+
+    function batchMintCertificates(
+        address[] memory recipients,
+        string[] memory studentIds,
+        string memory course,
+        string[] memory dates,
+        string memory baseMetadataURI
+    ) public onlyOwner {
+        require(recipients.length == studentIds.length, "Recipients and IDs length mismatch");
+        require(recipients.length == dates.length, "Recipients and dates length mismatch");
+        
+        for (uint256 i = 0; i < recipients.length; i++) {
+            uint256 tokenId = _nextTokenId++;
+            _safeMint(recipients[i], tokenId);
+
+            // Create unique metadata URI for each token
+            string memory metadataURI = string(
+                abi.encodePacked(baseMetadataURI, "/", tokenId.toString(), ".json")
+            );
+            _setTokenURI(tokenId, metadataURI);
+            
+            // Store student information
+            studentInfo[tokenId] = StudentInfo({
+                studentId: studentIds[i],
+                courseName: course,
+                completionDate: dates[i]
+            });
+            
+            emit CertificateMinted(recipients[i], tokenId, studentIds[i], course, dates[i]);
+        }
+    }
