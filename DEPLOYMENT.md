@@ -29,6 +29,10 @@ Before deploying to mainnet, ensure you have:
 
 ---
 
+## 🚀 Step-by-Step Deployment
+
+### Step 1: Prepare Environment
+
     --rpc-url $SCROLL_MAINNET_RPC_URL \
     --broadcast \
     --verify \
