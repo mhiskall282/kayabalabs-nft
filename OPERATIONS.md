@@ -6,6 +6,9 @@ Congratulations on completing {COURSE_NAME}!
 Claim your blockchain certificate:
 👉 {MINT_URL}
 
+Cost: $0.50 (instant)
+Requirements: MetaMask + Scroll ETH
+
 Your certificate will be:
 ✅ Permanent blockchain record
 ✅ Visible on OpenSea
