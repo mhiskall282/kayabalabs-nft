@@ -16,6 +16,18 @@ Before deploying to mainnet, ensure you have:
 ---
 
 ## 🎯 Recommended Networks & Costs
+
+| Network | Deploy Cost | Mint Cost | OpenSea Support | Best For |
+|---------|-------------|-----------|-----------------|----------|
+| **Scroll** | $2-5 | $0.01-0.05 | ✅ Yes | Low fees, zkEVM |
+| **Base** | $2-5 | $0.01-0.05 | ✅ Yes | Coinbase backing |
+| **Arbitrum** | $2-5 | $0.01-0.05 | ✅ Yes | Established ecosystem |
+| **Optimism** | $2-5 | $0.01-0.05 | ✅ Yes | Retroactive funding |
+| **Polygon** | $1-3 | $0.005-0.02 | ✅ Yes | Cheapest option |
+
+**Recommendation:** Start with **Scroll** or **Base** for best balance of cost and features.
+
+---
     --rpc-url $SCROLL_MAINNET_RPC_URL \
     --broadcast \
     --verify \
