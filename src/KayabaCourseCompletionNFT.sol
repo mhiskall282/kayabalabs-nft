@@ -292,4 +292,15 @@ function getStudentCertificates(address student)
         
         return string(padded);
     }
-    
+
+
+    // Override functions
+    function tokenURI(uint256 tokenId)
+        public
+        view
+        override(ERC721, ERC721URIStorage)
+        returns (string memory)
+    {
+        require(_ownerOf(tokenId) != address(0), "Token does not exist");
+        return _metadataURI; // Returns same metadata for all tokens
+    }
