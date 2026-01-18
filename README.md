@@ -67,6 +67,10 @@ $ cast --help
 
 ---
 
+- **Contract Comments** - Inline documentation in Solidity code
+
+---
+
 ## 🤝 Contributing
 
 This is a private project for Kayaba Labs. For questions or suggestions:
