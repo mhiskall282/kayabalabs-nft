@@ -1,3 +1,8 @@
+
+4. **Export paid students from database**
+
+Create `students.csv`:
+```csv
 wallet,completion_date
 0x1234567890abcdef1234567890abcdef12345678,January 18 2026
 0xabcdef1234567890abcdef1234567890abcdef12,January 18 2026
