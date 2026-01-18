@@ -181,3 +181,10 @@ function batchMintCertificates(
          payable(owner()).transfer(balance);
         emit FundsWithdrawn(owner(), balance);
     }
+
+    /**
+     * @dev Update metadata URI (only owner)
+     */
+    function setMetadataURI(string memory newURI) public onlyOwner {
+        _metadataURI = newURI;
+    }
