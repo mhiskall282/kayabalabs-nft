@@ -34,6 +34,11 @@ $ forge fmt
 ```
 
 ### Gas Snapshots
+- Metadata JSON
+- Additional attributes
+
+**Current IPFS:**
+- Image: `ipfs://bafkreiawpz2cyeckfyjck5ugdkpekcoot2t2ooprmptzqwc4kixc7h3pli`
 - Metadata: `https://coral-genuine-koi-966.mypinata.cloud/ipfs/bafkreia6rxkezois2eymzxbikacx5egnrfvteqsky6gcswscjzmlummccu`
 
 ---
