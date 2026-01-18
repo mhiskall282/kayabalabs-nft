@@ -1,3 +1,10 @@
+---
+
+## 📊 Monitoring & Analytics
+
+### Daily Checks
+
+```bash
 # Total certificates minted
 cast call $CONTRACT_ADDRESS "totalSupply()" --rpc-url $SCROLL_MAINNET_RPC_URL
 
