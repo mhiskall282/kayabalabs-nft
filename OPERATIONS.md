@@ -1,3 +1,7 @@
+
+1. **Student completes course**
+2. **Send completion email:**
+
 ```
 Subject: 🎉 Congratulations! Claim Your Certificate
 
