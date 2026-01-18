@@ -169,3 +169,7 @@ function batchMintCertificates(
         
         return studentIds;
     }
+
+    /**
+     * @dev Withdraw accumulated or collected funds (only owner)
+     */
