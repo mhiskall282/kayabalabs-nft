@@ -1,9 +1,11 @@
+Kayaba Labs Team
 ```
 
 3. **Student visits minting page**
 4. **Student connects MetaMask**
 5. **Student pays 0.0003 ETH (~$0.50)**
 6. **Certificate minted automatically**
+7. **Student ID generated: KL-SOL-000X**
 
 #### Track Self-Mints:
 
