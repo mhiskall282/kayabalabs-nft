@@ -246,3 +246,9 @@ function getStudentCertificates(address student)
         
         uint256[] memory certificateIds = new uint256[](count);
         uint256 index = 0;
+        // Second pass: collect certificate IDs
+        for (uint256 i = 0; i < total; i++) {
+            if (_ownerOf(i) == student) {
+                certificateIds[index++] = i;
+            }
+        }
