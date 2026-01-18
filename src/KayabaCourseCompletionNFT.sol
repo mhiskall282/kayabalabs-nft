@@ -284,4 +284,11 @@ function getStudentCertificates(address student)
         for (uint256 i = 0; i < paddingLength; i++) {
             padded[i] = "0";
         }
+
+         // Add the number
+        for (uint256 i = 0; i < numStr.length; i++) {
+            padded[paddingLength + i] = numStr[i];
+        }
         
+        return string(padded);
+    }
