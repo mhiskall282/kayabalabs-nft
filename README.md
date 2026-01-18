@@ -65,6 +65,10 @@ $ anvil --help
 $ cast --help
 ```
 
+- [ ] Deploy separate contracts for different courses
+- [ ] Create hackathon achievement NFT contract
+- [ ] Add project completion NFT contract
+- [ ] Build community contributor NFT system
 
 ### Phase 5: Advanced Features
 - [ ] Multi-signature wallet for fee withdrawals
