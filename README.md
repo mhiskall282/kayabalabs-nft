@@ -10,9 +10,11 @@ Foundry consists of:
 - **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
 ## Documentation
+- ✅ **Fee Collection** - $0.50 fee per self-mint, free for bulk mints
 - ✅ **On-Chain Storage** - Student ID, course name, and completion date stored on blockchain
 - ✅ **IPFS Metadata** - Images and additional data stored on decentralized storage
 - ✅ **OpenSea Compatible** - Viewable on major NFT marketplaces
+- ✅ **Low Cost** - Deployed on L2 networks (~$0.01-0.05 per mint)
 
 ---
 
