@@ -64,5 +64,10 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+**Next Action:** Deploy to mainnet (Scroll/Base recommended)
+
+**Estimated Launch Timeline:** 1-2 days
+
+---
 Last Updated: January 18, 2026
 Version: 1.0.0
