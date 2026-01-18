@@ -35,8 +35,8 @@ $ forge fmt
 
 ### Gas Snapshots
 
-```shell
-$ forge snapshot
+## 📁 Project Structure
+
 ```
 kayabalabs-nft/
 ├── src/
