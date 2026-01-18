@@ -65,6 +65,11 @@ $ anvil --help
 $ cast --help
 ```
 
+- [ ] Verify OpenSea integration works
+- [ ] Create basic minting website for students
+
+### Phase 2: Launch Ready
+- [ ] Build student self-mint interface (HTML/React)
 - [ ] Integrate Stripe for bulk mint payments
 - [ ] Create email templates for notifications
 - [ ] Setup automated weekly bulk mint script
