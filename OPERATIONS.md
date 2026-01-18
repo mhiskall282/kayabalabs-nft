@@ -1,3 +1,7 @@
+
+Need help? Reply to this email.
+
+Best regards,
 Kayaba Labs Team
 ```
 
