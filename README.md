@@ -30,8 +30,9 @@ $ forge test
 ### Format
 
 ```shell
-$ forge fmt
+// Data retrieval
 function getCertificateInfo(uint256 tokenId) 
+    public view returns (string studentId, string course, string date, address wallet)
 ```
 
 **Technology Stack:**
