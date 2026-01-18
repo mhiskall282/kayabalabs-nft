@@ -1,3 +1,7 @@
+👉 https://kayabalabs.com/mint-certificate
+
+Requirements:
+✅ MetaMask wallet installed
 ✅ $0.50 in ETH on Scroll network
 ✅ ~5 minutes to complete
 
