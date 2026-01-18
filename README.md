@@ -67,10 +67,12 @@ $ cast --help
 
 ---
 
+---
 
 ## 🔗 Links
 
 **Test Deployment:**
+- Contract: https://sepolia.etherscan.io/address/0x5f303F0F87a0A64292C784A3De47CB59edF4035C
 - Metadata: https://coral-genuine-koi-966.mypinata.cloud/ipfs/bafkreia6rxkezois2eymzxbikacx5egnrfvteqsky6gcswscjzmlummccu
 
 **Documentation:**
