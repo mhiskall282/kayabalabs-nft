@@ -1,3 +1,7 @@
+    --rpc-url $SCROLL_MAINNET_RPC_URL \
+    --private-key $PRIVATE_KEY
+```
+
 ### 5. Update Course Prefix (if needed)
 
 ```bash
