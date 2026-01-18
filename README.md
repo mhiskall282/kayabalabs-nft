@@ -34,6 +34,10 @@ $ forge fmt
 ```
 
 ### Gas Snapshots
+**Option 1: Self-Mint (Student Pays)**
+- Student pays: $0.50 + gas (~$0.01-0.05)
+- You collect: $0.50 per certificate
+- 100 students = $50 revenue
 
 **Option 2: Bulk Mint (You Pay Gas, Collect via Stripe)**
 - Student pays: $0.50 via Stripe
