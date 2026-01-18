@@ -46,6 +46,10 @@ $ anvil
 ```
 
 ### Deploy
+forge install
+
+# Build contracts
+forge build
 
 # Run tests
 forge test -vvv
