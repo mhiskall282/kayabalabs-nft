@@ -1,3 +1,10 @@
+### Weekly Reports
+
+Create `weekly-report.sh`:
+
+```bash
+#!/bin/bash
+source .env
 
 echo "=== Kayaba Labs NFT Certificate Report ==="
 echo "Week of: $(date)"
