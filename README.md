@@ -59,10 +59,6 @@ $ cast <subcommand>
 
 ### Help
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
 ```bash
 forge test -vvv
 ```
