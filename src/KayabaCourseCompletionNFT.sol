@@ -210,4 +210,8 @@ function batchMintCertificates(
             address wallet
         ) 
 
-        
+    {
+        require(_exists(tokenId), "Token does not exist");  
+        StudentInfo memory info = studentInfo[tokenId];
+        return (info.studentId, info.courseName, info.completionDate, ownerOf(tokenId));
+    }
