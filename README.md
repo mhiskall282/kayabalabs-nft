@@ -46,6 +46,9 @@ $ anvil
 ```
 
 ### Deploy
+cd kayabalabs-nft
+
+# Install dependencies
 forge install
 
 # Build contracts
