@@ -1,3 +1,9 @@
+# Last minted token info
+LAST_TOKEN=$(cast call $CONTRACT_ADDRESS "totalSupply()" --rpc-url $SCROLL_MAINNET_RPC_URL)
+LAST_TOKEN=$((LAST_TOKEN - 1))
+cast call $CONTRACT_ADDRESS "getCertificateInfo(uint256)" $LAST_TOKEN --rpc-url $SCROLL_MAINNET_RPC_URL
+```
+
 ### Weekly Reports
 
 Create `weekly-report.sh`:
