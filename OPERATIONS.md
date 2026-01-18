@@ -1,5 +1,16 @@
-Create separate contracts for:
+---
 
+## 📈 Growth & Scaling
+
+### When to Create New Contracts
+
+Create separate contracts for:
+- ✅ Different courses (Solidity vs Rust vs Move)
+- ✅ Different achievement types (Hackathons, Projects)
+- ✅ Different organizations/partners
+- ✅ Major curriculum updates
+
+### Batch Mint Limits
 
 Safe batch sizes:
 - **10-50 students:** Single transaction
