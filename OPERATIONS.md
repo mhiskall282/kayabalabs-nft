@@ -1,3 +1,8 @@
+Congratulations,
+Kayaba Labs Team
+```
+
+### Reminder (Haven't Minted Yet)
 
 ```
 Subject: ⏰ Don't forget your certificate!
