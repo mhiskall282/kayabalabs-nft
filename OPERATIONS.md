@@ -1,3 +1,8 @@
+### 5. Update Course Prefix (if needed)
+
+```bash
+# Change prefix from KL-SOL to something else
+cast send $CONTRACT_ADDRESS \
     "setCoursePrefix(string)" \
     "NEW-PREFIX" \
     --rpc-url $SCROLL_MAINNET_RPC_URL \
