@@ -1,3 +1,8 @@
+
+Hi [Student Name],
+
+You've completed the Solidity Fundamentals course!
+
 👉 https://kayabalabs.com/mint-certificate
 
 Requirements:
