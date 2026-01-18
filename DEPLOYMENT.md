@@ -40,6 +40,11 @@ cd /mnt/c/Users/user/desktop/kayabalabs-nft
 # Ensure .env file exists
 ls -la .env
 ```
+
+Add mainnet configuration:
+
+```bash
+# Your wallet private key (NEVER share this!)
 PRIVATE_KEY=your_private_key_here
 
 # Network RPC URLs
