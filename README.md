@@ -34,6 +34,10 @@ $ forge fmt
 ```
 
 ### Gas Snapshots
+### Recommended Networks (Mainnet)
+
+1. **Scroll** ⭐ Best choice
+   - RPC: `https://rpc.scroll.io`
    - Explorer: https://scrollscan.com
    - OpenSea: ✅ Supported
    - Cost: Very low
