@@ -1,3 +1,15 @@
+
+```
+No, certificates are "soulbound" - they cannot be transferred.
+
+This ensures:
+✅ Authentic verification (you earned it!)
+✅ Cannot be sold or given away
+✅ Permanent proof of YOUR achievement
+
+The certificate stays with your wallet forever.
+```
+
 ### "I lost access to my wallet"
 
 **Response:**
