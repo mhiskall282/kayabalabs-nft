@@ -69,6 +69,7 @@ $ cast --help
 ### Future Enhancements
 - [ ] Multi-signature wallet for withdrawals
 - [ ] Rate limiting on minting
+- [ ] Emergency pause functionality
 - [ ] Upgradeable proxy pattern (if needed)
 
 ---
