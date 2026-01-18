@@ -67,6 +67,12 @@ $ cast --help
 
 ---
 
+- [ ] 90%+ student satisfaction
+- [ ] <5 support tickets
+- [ ] Certificates visible on OpenSea
+- [ ] Zero security incidents
+
+---
 ## 🔐 Security Considerations
 
 ### Implemented ✅
