@@ -65,6 +65,7 @@ $ anvil --help
 $ cast --help
 ```
 
+### Test Coverage
 
 Current test coverage:
 - ✅ Minting with fee
