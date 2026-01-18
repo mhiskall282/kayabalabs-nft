@@ -1,3 +1,7 @@
+# Only if you need to change metadata location
+cast send $CONTRACT_ADDRESS \
+    "setMetadataURI(string)" \
+    "NEW_METADATA_URI" \
     --rpc-url $SCROLL_MAINNET_RPC_URL \
     --private-key $PRIVATE_KEY
 ```
