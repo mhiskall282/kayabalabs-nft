@@ -1,3 +1,11 @@
+
+Hi {STUDENT_NAME},
+
+Congratulations on completing {COURSE_NAME}!
+
+Claim your blockchain certificate:
+👉 {MINT_URL}
+
 - OpenSea: {OPENSEA_LINK}
 - Explorer: {EXPLORER_LINK}
 
