@@ -188,3 +188,16 @@ function batchMintCertificates(
     function setMetadataURI(string memory newURI) public onlyOwner {
         _metadataURI = newURI;
     }
+
+    /**
+     * @dev Update course prefix (only owner)
+     */
+    function setCoursePrefix(string memory newPrefix) public onlyOwner {
+        coursePrefix = newPrefix;
+    }
+
+    /**
+     * @dev Get complete certificate information for a token
+     */
+
+    
