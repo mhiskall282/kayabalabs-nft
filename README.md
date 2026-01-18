@@ -65,6 +65,10 @@ $ anvil --help
 $ cast --help
 ```
 
+
+Current test coverage:
+- ✅ Minting with fee
+- ✅ Minting without sufficient fee (fails)
 - ✅ Batch minting (owner only)
 - ✅ Fee withdrawal
 - ✅ Auto student ID generation
