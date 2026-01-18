@@ -1,5 +1,13 @@
 
 
+OPTION 2 - Buy from Exchange:
+1. Buy ETH on Binance/Coinbase
+2. Withdraw to Scroll network
+3. Use your MetaMask address
+
+OR: We can mint for you! Just pay $0.50 via Stripe and provide your wallet address.
+```
+
 ### "Where is my NFT?"
 
 **Response:**
