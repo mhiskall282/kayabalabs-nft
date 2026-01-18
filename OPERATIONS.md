@@ -8,6 +8,11 @@ You haven't claimed your course certificate yet.
 
 Claim now: {MINT_URL}
 
+Your achievement deserves recognition!
+Certificate expires: Never (claim anytime)
+
+Need help? Reply to this email.
+
 Best,
 Kayaba Labs Team
 ```
