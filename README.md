@@ -65,6 +65,8 @@ $ anvil --help
 $ cast --help
 ```
 
+- [ ] Upgradeable proxy pattern (if needed)
+
 ---
 
 ## 📚 Documentation
