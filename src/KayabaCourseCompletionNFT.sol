@@ -36,4 +36,7 @@ contract KayabaCourseCompletionNFT is ERC721, ERC721URIStorage, Ownable {
 // Single metadata URI (same for all tokens)
     string private _metadataURI;
 
+    // Course prefix for student IDs (e.g., "KL-SOL" for Solidity course)
+    string public coursePrefix;
+
     
