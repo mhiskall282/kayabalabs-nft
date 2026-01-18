@@ -34,6 +34,10 @@ $ forge fmt
 ```
 
 ### Gas Snapshots
+---
+
+## 🚀 Deployment Options
+
 ### Recommended Networks (Mainnet)
 
 1. **Scroll** ⭐ Best choice
