@@ -65,6 +65,12 @@ $ anvil --help
 $ cast --help
 ```
 
+
+## 📋 What's Left to Build
+
+### Phase 1: Immediate (Pre-Launch)
+- [ ] Deploy to mainnet (Scroll/Base recommended)
+- [ ] Test mainnet deployment with 1-2 certificates
 - [ ] Verify OpenSea integration works
 - [ ] Create basic minting website for students
 
