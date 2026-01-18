@@ -1,3 +1,12 @@
+
+echo "=== Kayaba Labs NFT Certificate Report ==="
+echo "Week of: $(date)"
+echo ""
+
+TOTAL=$(cast call $CONTRACT_ADDRESS "totalSupply()" --rpc-url $SCROLL_MAINNET_RPC_URL)
+BALANCE=$(cast balance $CONTRACT_ADDRESS --rpc-url $SCROLL_MAINNET_RPC_URL)
+
+echo "Total Certificates Minted: $TOTAL"
 echo "Fees Collected: $BALANCE wei"
 echo "Revenue (USD): Approximately $$(echo "scale=2; $TOTAL * 0.50" | bc)"
 echo ""
