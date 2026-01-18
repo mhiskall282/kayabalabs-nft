@@ -1,3 +1,7 @@
+#!/bin/bash
+# bulk-mint.sh
+
+# Load environment
 source .env
 
 # Student data
