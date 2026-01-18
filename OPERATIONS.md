@@ -1,3 +1,16 @@
+- ✅ Never share private key
+- ✅ Use hardware wallet for large operations
+- ✅ Verify contract address before transactions
+- ✅ Test on small batches first
+- ✅ Keep backup of all student data
+- ✅ Monitor contract for suspicious activity
+- ✅ Withdraw fees regularly (don't let large balance accumulate)
+
+### Access Control
+
+- ✅ Only owner can batch mint (already enforced)
+- ✅ Only owner can withdraw fees (already enforced)
+- ✅ Keep deployment wallet separate from personal wallet
 - ✅ Use multi-sig for high-value operations (future)
 
 ---
