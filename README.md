@@ -68,10 +68,14 @@ $ cast --help
 ---
 
 
+### Step 5: Setup Payment Processing (2-3 hours)
+Integrate Stripe for bulk mint option
+
 **Estimated Time to Launch:** 1-2 days
 
 ---
 
+## 📊 Success Metrics (30-Day Goals)
 
 - [ ] Contract deployed to mainnet
 - [ ] 50+ certificates minted
