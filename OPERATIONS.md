@@ -1,3 +1,6 @@
+---
+
+## 🎓 Student Certificate Workflow
 
 ### Option 1: Student Self-Mint (They Pay $0.50)
 
