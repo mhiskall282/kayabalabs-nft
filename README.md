@@ -52,6 +52,9 @@ $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --pri
 ```
 
 ### Cast
+### Environment Setup
+
+Create `.env` file:
 
 ```bash
 PRIVATE_KEY=your_private_key_here
