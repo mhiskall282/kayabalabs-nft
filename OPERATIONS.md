@@ -1,4 +1,11 @@
 
+You can get ETH on Scroll in two ways:
+
+OPTION 1 - Bridge (if you have ETH on Ethereum):
+1. Go to: https://scroll.io/bridge
+2. Connect MetaMask
+3. Bridge minimum 0.001 ETH
+4. Wait 15 minutes
 
 OPTION 2 - Buy from Exchange:
 1. Buy ETH on Binance/Coinbase
