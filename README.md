@@ -77,6 +77,7 @@ $ cast --help
 - [ ] Zero security incidents
 
 ---
+
 ## 🔐 Security Considerations
 
 ### Implemented ✅
