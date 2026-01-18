@@ -245,3 +245,4 @@ function getStudentCertificates(address student)
         }
         
         uint256[] memory certificateIds = new uint256[](count);
+        uint256 index = 0;
