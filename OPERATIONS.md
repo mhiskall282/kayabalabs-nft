@@ -1,3 +1,9 @@
+
+1. **Collect wallet addresses during enrollment**
+
+Sample form fields:
+```
+Full Name: _________________
 Email: _________________
 Wallet Address: _________________
 (Don't have one? Click here for guide)
