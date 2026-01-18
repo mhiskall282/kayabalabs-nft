@@ -67,6 +67,12 @@ $ cast --help
 
 ---
 
+This is a private project for Kayaba Labs. For questions or suggestions:
+- Review documentation files
+- Check smart contract comments
+- Test on Sepolia before mainnet changes
+
+---
 ## 📜 License
 
 MIT License - See contract header for details
