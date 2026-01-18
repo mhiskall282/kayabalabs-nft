@@ -11,13 +11,14 @@ Foundry consists of:
 
 ## Documentation
 
-https://book.getfoundry.sh/
+---
 
-## Usage
 ## 📊 Current Status: **PRODUCTION READY** ✅
 
 ### Completed ✅
 
+- [x] Smart contract development
+- [x] Auto student ID generation system
 - [x] Soulbound transfer prevention
 - [x] Batch minting functionality
 - [x] Fee collection mechanism
