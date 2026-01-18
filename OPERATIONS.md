@@ -1,4 +1,7 @@
 
+
+**Response:**
+```
 You can get ETH on Scroll in two ways:
 
 OPTION 1 - Bridge (if you have ETH on Ethereum):
