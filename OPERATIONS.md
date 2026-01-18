@@ -1,3 +1,7 @@
+- [ ] Review total certificates minted
+- [ ] Check for failed transactions
+- [ ] Update student records
+- [ ] Send reminder emails to non-claimers
 - [ ] Review OpenSea collection performance
 - [ ] Update metadata if needed
 - [ ] Backup student wallet list
