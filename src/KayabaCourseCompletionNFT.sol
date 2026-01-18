@@ -276,4 +276,12 @@ function getStudentCertificates(address student)
         if (numStr.length >= length) {
             return string(numStr);
         }
+
+        bytes memory padded = new bytes(length);
+        uint256 paddingLength = length - numStr.length;
+        
+         // Add leading zeros
+        for (uint256 i = 0; i < paddingLength; i++) {
+            padded[i] = "0";
+        }
         
