@@ -11,6 +11,7 @@ contract KayabaCourseCompletionNFTTest is Test {
     uint256 constant MINT_FEE = 0.0003 ether;
     
     receive() external payable {}
+    
     function setUp() public {
         owner = address(this);
         student1 = address(0x1);
