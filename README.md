@@ -34,6 +34,10 @@ $ forge fmt
 ```
 
 ### Gas Snapshots
+- Solidity 0.8.29
+- OpenZeppelin Contracts (ERC721, Ownable)
+- Foundry for development and testing
+
 
 **On-Chain (Smart Contract):**
 - Student ID (auto-generated)
