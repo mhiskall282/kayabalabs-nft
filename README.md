@@ -40,6 +40,10 @@ $ forge snapshot
 ```
 
 ### Anvil
+---
+
+## 🛠️ Development Setup
+
 ### Prerequisites
 
 ```bash
