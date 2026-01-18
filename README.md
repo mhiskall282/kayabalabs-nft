@@ -65,6 +65,10 @@ $ anvil --help
 $ cast --help
 ```
 
+- [ ] Create certificate verification page (check by student ID)
+- [ ] Integrate with course platform (auto-mint on completion)
+- [ ] Add certificate gallery for students
+
 ### Phase 4: Expansion
 - [ ] Deploy separate contracts for different courses
 - [ ] Create hackathon achievement NFT contract
