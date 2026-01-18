@@ -20,10 +20,14 @@ https://book.getfoundry.sh/
 ```shell
 $ forge build
 ```
+- [x] Soulbound transfer prevention
+- [x] Batch minting functionality
+- [x] Fee collection mechanism
 - [x] Testing on Ethereum Sepolia
 - [x] Metadata structure defined
 - [x] Image uploaded to IPFS
 - [x] Test certificates minted successfully
+- [x] Contract verified on block explorer
 - [x] Documentation completed
 
 ### Current Stage: **Ready for Mainnet Deployment**
