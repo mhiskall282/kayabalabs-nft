@@ -1,3 +1,20 @@
+- **500+ students:** Split into 100-student batches
+
+### Automation Opportunities
+
+**Consider building:**
+1. Automated minting on course completion
+2. Payment webhook integration (Stripe → Auto-mint)
+3. Student dashboard to view certificates
+4. Analytics dashboard for your team
+5. API for third-party integrations
+
+---
+
+## 🔐 Security Best Practices
+
+### Daily Operations
+
 - ✅ Never share private key
 - ✅ Use hardware wallet for large operations
 - ✅ Verify contract address before transactions
