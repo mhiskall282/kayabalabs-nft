@@ -1,4 +1,12 @@
 
+Go to: https://scrollscan.com/token/{CONTRACT_ADDRESS}?a={TOKEN_ID}
+
+Still don't see it? Reply with your wallet address and we'll check.
+```
+
+### "Can I transfer my certificate?"
+
+**Response:**
 ```
 No, certificates are "soulbound" - they cannot be transferred.
 
