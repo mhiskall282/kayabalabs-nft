@@ -1,10 +1,15 @@
 
+Best,
+Kayaba Labs Team
+```
+
 ---
 
 ## 🆘 Student Support FAQ
 
 ### "I don't have a wallet"
 
+**Response:**
 ```
 No problem! Here's how to get started:
 
