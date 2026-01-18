@@ -37,6 +37,9 @@ $ forge fmt
 
 ```shell
 $ forge snapshot
+├── test/
+│   └── KayabaCourseCompletionNFT.t.sol  # Contract tests
+├── script/
 │   └── DeployCourseNFT.s.sol            # Deployment script
 ├── lib/
 │   ├── forge-std/                        # Foundry standard library
