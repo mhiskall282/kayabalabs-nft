@@ -1,3 +1,7 @@
+```
+
+---
+
 ## 📧 Email Templates
 
 ### Course Completion (Self-Mint Option)
